@@ -8248,5 +8248,6 @@
 #include "modular_nova\modules\xenos_nova_redo\code\xeno_types\sentinel.dm"
 #include "modular_nova\modules\xenos_nova_redo\code\xeno_types\spitter.dm"
 #include "modular_nova\modules\xenos_nova_redo\code\xeno_types\warrior.dm"
-#include "modular_hispania\modules\veteran_only\freeclown.dm"
+#include "modular_hispania\modules\no_veteran_only\novet_especie.dm"
+#include "modular_hispania\modules\no_veteran_only\novet_jobs.dm"
 // END_INCLUDE
