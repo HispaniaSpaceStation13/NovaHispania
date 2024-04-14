@@ -6722,12 +6722,12 @@
 /turf/open/floor/iron,
 /area/station/security/processing)
 "bYK" = (
-/obj/effect/landmark/start/chemist,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/landmark/start/paramedic,
 /turf/open/floor/iron/white,
 /area/station/medical/paramedic)
 "bYS" = (
@@ -40896,6 +40896,13 @@
 "mAe" = (
 /turf/open/floor/glass/reinforced,
 /area/station/security/lockers)
+"mAw" = (
+/obj/structure/chair/comfy/black{
+	dir = 4
+	},
+/obj/effect/landmark/start/nanotrasen_consultant,
+/turf/open/floor/carpet,
+/area/station/command/meeting_room)
 "mAz" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
@@ -62520,6 +62527,10 @@
 /obj/effect/spawner/random/trash/moisture_trap,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical/morgue)
+"sYY" = (
+/obj/structure/closet/secure_closet/blueshield,
+/turf/open/floor/wood,
+/area/station/command/heads_quarters/captain)
 "sZa" = (
 /obj/effect/turf_decal/box/white{
 	color = "#9FED58"
@@ -63510,6 +63521,13 @@
 	},
 /turf/open/floor/wood,
 /area/station/service/library)
+"tsj" = (
+/obj/structure/chair/comfy/black{
+	dir = 8
+	},
+/obj/effect/landmark/start/blueshield,
+/turf/open/floor/carpet,
+/area/station/command/meeting_room)
 "tsk" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron,
@@ -77840,6 +77858,7 @@
 /area/station/service/janitor)
 "xPT" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/effect/landmark/start/chemist,
 /turf/open/floor/iron/white,
 /area/station/medical/medbay/central)
 "xPV" = (
@@ -236351,7 +236370,7 @@ dxK
 xVq
 lnk
 pNs
-pNs
+mAw
 oyb
 mqD
 iYb
@@ -237122,7 +237141,7 @@ xKJ
 dhj
 kiL
 tOF
-tOF
+tsj
 ktU
 wzk
 wzk
@@ -242522,7 +242541,7 @@ iFL
 hpe
 fiN
 mBX
-uEm
+sYY
 viQ
 dGU
 wdg
