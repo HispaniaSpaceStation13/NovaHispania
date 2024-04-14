@@ -769,8 +769,8 @@
 	name = "Starboard Quarter Solar Access"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance/departmental,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/aft)
 "anK" = (
@@ -15109,11 +15109,8 @@
 /turf/closed/wall,
 /area/station/security/prison/toilet)
 "eAh" = (
+/obj/machinery/power/smes,
 /obj/structure/cable,
-/obj/machinery/power/smes{
-	input_level = 200000;
-	output_level = 120000
-	},
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/fore)
 "eAj" = (
@@ -16725,6 +16722,11 @@
 	},
 /turf/open/floor/iron,
 /area/station/command/heads_quarters/rd)
+"fbh" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "fbl" = (
 /turf/open/floor/iron/dark,
 /area/station/science/breakroom)
@@ -38095,8 +38097,8 @@
 	name = "Starboard Bow Solar Access"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance/departmental,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
 "lFL" = (
@@ -44274,11 +44276,8 @@
 /turf/open/floor/circuit,
 /area/station/ai_monitored/turret_protected/ai)
 "nBB" = (
+/obj/machinery/power/smes,
 /obj/structure/cable,
-/obj/machinery/power/smes{
-	input_level = 200000;
-	output_level = 120000
-	},
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/aft)
 "nBE" = (
@@ -50877,8 +50876,8 @@
 	name = "Port Quarter Solar Access"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance/departmental,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/aft)
 "pyJ" = (
@@ -54674,10 +54673,7 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/entry)
 "qIf" = (
-/obj/machinery/power/smes{
-	input_level = 200000;
-	output_level = 120000
-	},
+/obj/machinery/power/smes,
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/aft)
@@ -59912,8 +59908,8 @@
 	name = "Port Bow Solar Access"
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/access/all/engineering/general,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance/departmental,
 /turf/open/floor/plating,
 /area/station/maintenance/solars/port/fore)
 "smw" = (
@@ -65438,6 +65434,10 @@
 /obj/structure/sign/poster/official/random/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/science/genetics)
+"tZf" = (
+/obj/structure/cable,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "tZm" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /turf/open/floor/iron/white,
@@ -77930,11 +77930,8 @@
 /obj/machinery/camera/directional/south{
 	c_tag = "Solar Maintenance - North East"
 	},
+/obj/machinery/power/smes,
 /obj/structure/cable,
-/obj/machinery/power/smes{
-	input_level = 200000;
-	output_level = 120000
-	},
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/fore)
 "xTw" = (
@@ -224985,9 +224982,9 @@ bln
 bln
 bln
 bln
-xxB
+bln
 tmR
-xxB
+bln
 bln
 bln
 bln
@@ -225242,9 +225239,9 @@ xxB
 xxB
 xxB
 xxB
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 xxB
 xxB
 xxB
@@ -225500,7 +225497,7 @@ tmR
 tmR
 tmR
 tmR
-tmR
+sEB
 tmR
 tmR
 tmR
@@ -225756,9 +225753,9 @@ xxB
 xxB
 xxB
 xxB
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 xxB
 xxB
 xxB
@@ -226013,9 +226010,9 @@ bln
 bln
 bln
 bln
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 bln
 bln
 bln
@@ -226170,18 +226167,18 @@ tCr
 bln
 bln
 bln
-uei
-uei
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
+bln
 vsI
 eGr
 eGr
@@ -226270,9 +226267,9 @@ xxB
 xxB
 xxB
 xxB
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 xxB
 xxB
 xxB
@@ -226425,20 +226422,20 @@ bln
 bln
 tCr
 bln
-cnx
+fbh
+tZf
 tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
 tmR
 izw
 pVN
@@ -226528,7 +226525,7 @@ tmR
 tmR
 tmR
 tmR
-tmR
+sEB
 tmR
 tmR
 tmR
@@ -226684,18 +226681,18 @@ tCr
 bln
 bln
 bln
-uei
-uei
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
+bln
 sEB
 eGr
 eGr
@@ -226784,9 +226781,9 @@ xxB
 xxB
 xxB
 xxB
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 xxB
 xxB
 xxB
@@ -227041,9 +227038,9 @@ bln
 bln
 bln
 bln
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 bln
 bln
 bln
@@ -227298,9 +227295,9 @@ xxB
 xxB
 xxB
 xxB
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 xxB
 xxB
 xxB
@@ -227556,7 +227553,7 @@ tmR
 tmR
 tmR
 tmR
-tmR
+sEB
 tmR
 tmR
 tmR
@@ -227812,9 +227809,9 @@ xxB
 xxB
 xxB
 xxB
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 xxB
 xxB
 xxB
@@ -228069,9 +228066,9 @@ bln
 bln
 bln
 bln
-xxB
-tmR
-xxB
+bln
+sEB
+bln
 bln
 bln
 bln
@@ -251099,21 +251096,21 @@ tCr
 bln
 bln
 bln
-uei
-uei
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
-uei
+bln
+bln
+bln
+bln
 vsI
 acE
 acE
@@ -251357,17 +251354,17 @@ bln
 cnx
 tmR
 tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
 tmR
 tmR
 tmR
@@ -251613,21 +251610,21 @@ tCr
 bln
 bln
 bln
-uei
-uei
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
-uei
+bln
+bln
+bln
+bln
 sEB
 acE
 acE
@@ -259947,21 +259944,21 @@ axy
 mJq
 mJq
 sEB
-uei
-uei
-uei
-uei
+bln
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
+bln
+bln
 bln
 bln
 bln
@@ -260207,17 +260204,17 @@ tmR
 tmR
 tmR
 tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
-tmR
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
+sEB
 tmR
 tmR
 cnx
@@ -260461,21 +260458,21 @@ mjt
 mJq
 mJq
 vsI
-uei
-uei
-uei
-uei
+bln
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
-uei
+bln
+bln
+bln
 tmR
-uei
-uei
+bln
+bln
 bln
 bln
 bln
