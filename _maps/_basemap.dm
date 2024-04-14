@@ -17,7 +17,9 @@
 		#include "map_files\VoidRaptor\VoidRaptor.dmm"
 		#include "map_files\NSVBlueshift\Blueshift.dmm"
 		// NOVA EDIT END
-
+		// HISPA EDIT ADDITON START - Compiling our modular maps too!
+		#include "map_files\IceBoxStationHispania\IceBoxStationHispania.dmm"
+		// HISPA EDIT END
 		#ifdef CIBUILDING
 			#include "templates.dm"
 		#endif

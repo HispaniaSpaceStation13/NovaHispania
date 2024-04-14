@@ -14682,12 +14682,8 @@
 /area/station/service/hydroponics/garden)
 "esC" = (
 /obj/structure/closet/secure_closet/medical3,
-/obj/item/defibrillator/loaded{
-	pixel_y = 3
-	},
 /obj/item/clothing/gloves/latex/nitrile,
 /obj/item/clothing/gloves/latex/nitrile,
-/obj/machinery/light/cold/directional/north,
 /obj/item/pinpointer/crew,
 /obj/effect/turf_decal/trimline/blue/filled/line{
 	dir = 9
