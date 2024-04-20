@@ -204,6 +204,7 @@ export const DmTarget = new Juke.Target({
     'icons/**',
     'interface/**',
     'modular_nova/**', ///NOVA EDIT ADDITION - Making the CBT work
+    'modular_hispania/**', ///HISPANIA EDIT ADDITION - Making the CBT work
     `${DME_NAME}.dme`,
     NamedVersionFile,
   ],
