@@ -86,6 +86,8 @@
 	var/mob/living/owner
 	var/bubble_icon = "default"
 
+
+
 /mob/camera/imaginary_friend/Login()
 	. = ..()
 	if(!. || !client)

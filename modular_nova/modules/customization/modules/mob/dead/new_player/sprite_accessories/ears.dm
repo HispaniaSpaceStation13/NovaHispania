@@ -147,10 +147,6 @@
 	name = "Broad Elf"
 	icon_state = "elfbroad"
 
-/datum/sprite_accessory/ears/mutant/elf/broad/reverse
-	name = "Broad Elf, Reversed"
-	icon_state = "elfbroadreverse"
-
 /datum/sprite_accessory/ears/mutant/elf/longer
 	name = "Longer Elf"
 	icon_state = "elflonger"

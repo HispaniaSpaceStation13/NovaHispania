@@ -60,8 +60,9 @@
 
 /obj/item/clothing/neck/tie/Initialize(mapload)
 	. = ..()
-	if(!clip_on)
-		update_appearance(UPDATE_ICON)
+	if(clip_on)
+		return
+	update_appearance(UPDATE_ICON)
 	register_context()
 
 /obj/item/clothing/neck/tie/examine(mob/user)
@@ -106,7 +107,7 @@
 /obj/item/clothing/neck/tie/alt_click_secondary(mob/user)
 	. = ..()
 	if(!user.can_perform_action(src, NEED_DEXTERITY))
-		return
+		return	
 	alternate_worn_layer = alternate_worn_layer == initial(alternate_worn_layer) ? NONE : initial(alternate_worn_layer)
 	user.update_clothing(ITEM_SLOT_NECK)
 	balloon_alert(user, "wearing [alternate_worn_layer == initial(alternate_worn_layer) ? "below" : "above"] suits")
@@ -131,7 +132,7 @@
 	. = ..()
 	context[SCREENTIP_CONTEXT_ALT_RMB] = "Wear [alternate_worn_layer == initial(alternate_worn_layer) ? "above" : "below"] suit"
 	if(clip_on)
-		return CONTEXTUAL_SCREENTIP_SET
+		return
 	if(is_tied)
 		context[SCREENTIP_CONTEXT_ALT_LMB] = "Untie"
 	else

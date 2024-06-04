@@ -129,10 +129,9 @@
 
 /turf/open/floor/plating/foam
 	name = "metal foam plating"
-	desc = "Thin, fragile flooring created with metal foam. Designed to be easily replacable by tiling when applied to in a combat stance."
+	desc = "Thin, fragile flooring created with metal foam."
 	icon_state = "foam_plating"
 	upgradable = FALSE
-	attachment_holes = FALSE
 
 /turf/open/floor/plating/foam/burn_tile()
 	return //jetfuel can't melt steel foam
