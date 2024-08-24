@@ -3,6 +3,8 @@
 	allowed_biotypes = MOB_ORGANIC|MOB_ROBOTIC
 	///Hardcoded styles that can be chosen from and apply to limb, if it's true
 	var/uses_robotic_styles = TRUE
+	///Should we draw these greyscale?
+	var/uses_greyscale = FALSE
 
 /datum/augment_item/limb/apply(mob/living/carbon/human/augmented, character_setup = FALSE, datum/preferences/prefs)
 	if(character_setup)
@@ -20,8 +22,11 @@
 			old_limb.set_icon_static(chosen_style)
 			old_limb.current_style = prefs.augment_limb_styles[slot]
 		else
-			old_limb.set_icon_static(initial(new_limb.icon))
-		old_limb.should_draw_greyscale = FALSE
+			if(!uses_greyscale)
+				old_limb.set_icon_static(initial(new_limb.icon))
+			else
+				old_limb.set_icon_greyscale(UNLINT(initial(new_limb.icon_greyscale))) // stupid var_protected memes
+		old_limb.should_draw_greyscale = uses_greyscale
 
 		return body_zone
 	else
@@ -68,6 +73,12 @@
 	path = /obj/item/bodypart/arm/left/plasmaman
 	uses_robotic_styles = FALSE
 
+/datum/augment_item/limb/l_arm/peg
+	name = "Left peg arm"
+	path = /obj/item/bodypart/arm/left/ghetto
+	cost = -2
+	uses_robotic_styles = FALSE
+
 /datum/augment_item/limb/l_arm/self_destruct
 	name = "No Left Arm"
 	path = /obj/item/bodypart/arm/left/self_destruct
@@ -90,6 +101,12 @@
 /datum/augment_item/limb/r_arm/plasmaman
 	name = "Plasmaman right arm"
 	path = /obj/item/bodypart/arm/right/plasmaman
+	uses_robotic_styles = FALSE
+
+/datum/augment_item/limb/r_arm/peg
+	name = "Right peg arm"
+	path = /obj/item/bodypart/arm/right/ghetto
+	cost = -2
 	uses_robotic_styles = FALSE
 
 /datum/augment_item/limb/r_arm/self_destruct
@@ -116,6 +133,11 @@
 	path = /obj/item/bodypart/leg/left/plasmaman
 	uses_robotic_styles = FALSE
 
+/datum/augment_item/limb/l_leg/peg
+	name = "Left peg leg"
+	path = /obj/item/bodypart/leg/left/ghetto
+	cost = -2
+
 /datum/augment_item/limb/l_leg/self_destruct
 	name = "No Left Leg"
 	path = /obj/item/bodypart/leg/left/self_destruct
@@ -139,6 +161,11 @@
 	name = "Plasmaman right leg"
 	path = /obj/item/bodypart/leg/right/plasmaman
 	uses_robotic_styles = FALSE
+
+/datum/augment_item/limb/r_leg/peg
+	name = "Right peg leg"
+	path = /obj/item/bodypart/leg/right/ghetto
+	cost = -2
 
 /datum/augment_item/limb/r_leg/self_destruct
 	name = "No Right Leg"
