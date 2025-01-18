@@ -8839,4 +8839,6 @@
 #include "modular_nova\modules\xenoarchartifacts\obj\geosample.dm"
 #include "modular_nova\modules\xenoarchartifacts\obj\particle_battery.dm"
 #include "modular_nova\modules\xenoarchartifacts\obj\wave_scanner.dm"
+#include "modular_nova_hispania\modules\veteran_only\code\job_types.dm"
+#include "modular_nova_hispania\modules\veteran_only\code\species_types.dm"
 // END_INCLUDE
